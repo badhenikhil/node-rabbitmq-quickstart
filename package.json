@@ -1,0 +1,13 @@
+{
+  "name": "rabbitmq-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "publisher": "node publisher.js",
+    "subscriber": "node subscriber.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.0.3"
+  }
+}
